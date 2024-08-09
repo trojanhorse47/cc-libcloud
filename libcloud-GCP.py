@@ -2,19 +2,19 @@ from libcloud.compute.types import Provider
 from libcloud.compute.providers import get_driver
 
 # User email
-USER_ID = 'pippo-530@mylibcloud.iam.gserviceaccount.com'
+USER_ID = 'your-user@email-address'
 
 # Path to JSON credential file
-GCP_CREDENTIALS_JSON = 'E:\Download\mylibcloud-df9a6978df89.json'
+GCP_CREDENTIALS_JSON = 'pathname/to/JSON/credential/file'
 
 # Project ID
-GCP_PROJECT_ID = 'mylibcloud'
+GCP_PROJECT_ID = 'your-project-id'
 
 # Zone name to where create he new VM
 GCP_ZONE = 'us-central1-a'
 
 # Machine name
-MACHINE_NAME = 'mymachine'
+MACHINE_NAME = 'your-machine-name'
 
 try:
     # Get GCP driver
